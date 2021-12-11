@@ -1,0 +1,32 @@
+{
+  "name": "gnome-stay-awake",
+  "version": "1.0.0",
+  "description": "a cli utility that prevents gnome lockscreen whilst running",
+  "main": "gnome-stay-awake.mjs",
+  "bin": "./gnome-stay-awake.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "package.json",
+    "gnome-stay-awake.mjs",
+    "README.md",
+    "CHANGES.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnahkies/gnome-stay-awake.git"
+  },
+  "keywords": [
+    "gnome",
+    "linux",
+    "gsettings"
+  ],
+  "author": "Michael Nahkies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnahkies/gnome-stay-awake/issues"
+  },
+  "homepage": "https://github.com/mnahkies/gnome-stay-awake#readme"
+}
